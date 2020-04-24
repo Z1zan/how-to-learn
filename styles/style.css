@@ -100,7 +100,8 @@ div, h1, h2, h3, p, nav, a, li, ul{
   margin-top: 0;
 }
 .two-columns__main-text{
-  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
   line-height: 34px;
   font-size: 24px;
   min-width: 784px;
@@ -108,16 +109,10 @@ div, h1, h2, h3, p, nav, a, li, ul{
 }
 .two-columns__paragrath{
   font-weight: normal;
-}
-.two-columns__paragrath-top{
   margin: auto;
 }
-.two-columns__paragrath-mid{
-  margin-top: 30px;
+.two-columns__paragrath:not(:last-child){
   margin-bottom: 30px;
-}
-.two-columns__paragrath-bottom{
-  margin: auto;
 }
 .two-columns__span-accent{
   font-weight: bold;
@@ -268,6 +263,7 @@ div, h1, h2, h3, p, nav, a, li, ul{
   justify-content: space-between;
   width: 90%;
   margin: 0 auto;
+  min-height: 350px;
 }
 .footer__column{
   flex-direction: column;
@@ -306,11 +302,12 @@ div, h1, h2, h3, p, nav, a, li, ul{
   font-weight: normal;
   color: #fff;
 }
-.footer__column-link{
+.footer__list-item{
   list-style-type: none;
+}
+.footer__column-link{
   text-decoration: none;
   color: #fff;
-  list: none;
 }
 .footer__column_social{
   justify-content: start;
