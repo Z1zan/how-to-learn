@@ -1,0 +1,28 @@
+@import url(./_theme_dark/kaufman_theme_dark.css);
+@keyframes rotation{
+  from{
+    transform: rotate(-15deg);
+  }
+  to{
+    transform: rotate(345deg);
+  }
+}
+.kaufman{
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #1f1f1f;
+  color: #fff;
+  position: relative;
+}
+.kaufman-triangle{
+  background-image: url(../images/kaufman-triangle.svg);
+  background-size: contain;
+  position: absolute;
+  right: -210px;
+  top: 0;
+  z-index: 0;
+  width: 877px;
+  height: 877px;
+}
