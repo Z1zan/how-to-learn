@@ -19,8 +19,6 @@
   margin-top: 0;
 }
 .two-columns__main-text{
-  display: flex;
-  flex-direction: column;
   line-height: 34px;
   font-size: 24px;
   min-width: 784px;

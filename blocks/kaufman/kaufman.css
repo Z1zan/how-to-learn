@@ -1,12 +1,4 @@
 @import url(./_theme_dark/kaufman_theme_dark.css);
-@keyframes rotation{
-  from{
-    transform: rotate(-15deg);
-  }
-  to{
-    transform: rotate(345deg);
-  }
-}
 .kaufman{
   overflow: hidden;
   display: flex;
@@ -17,7 +9,7 @@
   position: relative;
 }
 .kaufman-triangle{
-  background-image: url(../images/kaufman-triangle.svg);
+  background-image: url(../../images/kaufman-triangle.svg);
   background-size: contain;
   position: absolute;
   right: -210px;

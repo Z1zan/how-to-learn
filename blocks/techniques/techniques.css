@@ -5,6 +5,16 @@
   width: 80%;
   margin: 0 auto;
 }
+.section-title{
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: bold;
+}
+.section-subtitle{
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
 .cards{
   width: 920px;
   display: flex;
@@ -23,7 +33,6 @@
   height: 160px;
   box-sizing: border-box;
   border-radius: 50%;
-  overflow: hidden;
   margin: 60px 40px 43px 40px;
 }
 .cards__title{

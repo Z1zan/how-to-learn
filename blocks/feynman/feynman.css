@@ -31,7 +31,7 @@
   right: 48px;
 }
 .feynman__link:hover{
-  color:yellowgreen;
+  opacity: 0.5;
 }
 .feynman__img{
   position: absolute;

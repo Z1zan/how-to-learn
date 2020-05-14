@@ -58,7 +58,7 @@
   color: #fff;
 }
 .footer__column-link:hover{
-  color:yellowgreen;
+  opacity: 0.5;
 }
 .footer__column_social{
   justify-content: start;

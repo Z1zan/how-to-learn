@@ -13,4 +13,15 @@
 .resources__logo{
   width: 270px;
   height: 38px;
+  transition: transform .3s ease-in;
+}
+.resources__logo:hover{
+  transform: scale(1.5);
+  transition: transform .3s ease-in;
+}
+.resources__list-item{
+  list-style-type: none;
+}
+.resources__logo-link{
+  text-decoration: none;
 }
