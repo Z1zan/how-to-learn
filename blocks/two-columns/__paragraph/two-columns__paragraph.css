@@ -1,0 +1,7 @@
+.two-columns__paragrath{
+  font-weight: normal;
+  margin: auto;
+}
+.two-columns__paragrath:not(:last-child){
+  margin-bottom: 30px;
+}

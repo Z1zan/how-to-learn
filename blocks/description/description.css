@@ -1,36 +1,3 @@
 .description{
-  display: flex;
-  justify-content: space-around;
-}
-.two-columns{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 80%;
-  margin-top: 100px;
-  margin-bottom: 100px;
-}
-.two-columns__brief{
-  width: 175px;
-  line-height: 1.2;
-  font-size: 18px;
-  font-weight: normal;
-  color: #2f80ed;
-  margin-top: 0;
-}
-.two-columns__main-text{
-  line-height: 34px;
-  font-size: 24px;
-  min-width: 784px;
-  width: 80%;
-}
-.two-columns__paragrath{
-  font-weight: normal;
-  margin: auto;
-}
-.two-columns__paragrath:not(:last-child){
-  margin-bottom: 30px;
-}
-.two-columns__span-accent{
-  font-weight: bold;
+  
 }

@@ -1,27 +1,11 @@
+@import url(./__list-item/resources__list-item.css);
+@import url(./__logo-zone/resources__logo-zone.css);
+@import url(./__logo/resources__logo.css);
+@import url(./__logo-link/resources__logo-link.css);
+
 .resources{
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 100px;
-}
-.resources__logo-zone{
-  margin: 80px auto 217px auto;
-  width: 1100px;
-  display: flex;
-  justify-content: space-around;
-}
-.resources__logo{
-  width: 270px;
-  height: 38px;
-  transition: transform .3s ease-in;
-}
-.resources__logo:hover{
-  transform: scale(1.5);
-  transition: transform .3s ease-in;
-}
-.resources__list-item{
-  list-style-type: none;
-}
-.resources__logo-link{
-  text-decoration: none;
+  padding: 100px 0 217px 0;
 }
